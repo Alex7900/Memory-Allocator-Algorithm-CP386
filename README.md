@@ -24,11 +24,11 @@ A request for 20,000 bytes will appear as follows:
 *command>RQ P0 20000 B*  
 The first parameter to the RQ command is the new process that requires the memory, followed by the amount of memory being requested, and finally the strategy. (In this situation, “B” refers to best fit.)  
 The RQ flags are:
-- F—First fit
+- F-First fit
 
 - B-Best fit
 
-- W—Worst fit
+- W-Worst fit
 
 Similarly, a release will appear as:  
 *command>RL P0*   
