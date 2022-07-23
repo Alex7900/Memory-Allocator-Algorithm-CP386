@@ -21,16 +21,16 @@ From here the user will enter one of the commands above to execute the memory al
 
 A request for 20,000 bytes will appear as follows:
 
-**command>RQ P0 20000 B**  
+*command>RQ P0 20000 B*    
 The first parameter to the RQ command is the new process that requires the memory, followed by the amount of memory being requested, and finally the strategy. (In this situation, “B” refers to best fit.) 
 
 Similarly, a release will appear as:  
-**command>RL P0**  
+*command>RL P0*   
 This command will release the memory that has been allocated to process P0. The command for compaction is entered as:
 
-**command>C**  
+*command>C*  
 This command will compact unused holes of memory into one region.
 
 Finally, the Status command for reporting the status of memory is entered as:  
-**command>Status**  
+*command>Status*  
 Given this command, the program will report the regions of memory that are allocated and the regions that are unused. 
