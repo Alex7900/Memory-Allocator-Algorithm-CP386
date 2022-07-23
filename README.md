@@ -15,8 +15,8 @@ The program responds to the following commands:
 - Status (status report)
 - Exit (exit)
 
-If implemented correctly, once the program has started, the user will be presented with the following:
-**command>**
+If implemented correctly, once the program has started, the user will be presented with the following:  
+**command>**  
 From here the user will enter one of the commands above to execute the memory allocator
 
 A request for 20,000 bytes will appear as follows:
@@ -32,7 +32,7 @@ Similarly, a release will appear as:
 *command>RL P0*   
 This command will release the memory that has been allocated to process P0. 
 
-The command for compaction is entered as:
+The command for compaction is entered as:  
 *command>C*  
 This command will compact unused holes of memory into one region.
 
