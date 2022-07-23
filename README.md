@@ -16,11 +16,10 @@ The program responds to the following commands:
 - Exit (exit)
 
 If implemented correctly, once the program has started, the user will be presented with the following:  
-**command>**  
+*command>*  
 From here the user will enter one of the commands above to execute the memory allocator
 
-A request for 20,000 bytes will appear as follows:
-
+A request for 20,000 bytes will appear as follows:  
 *command>RQ P0 20000 B*  
 The first parameter to the RQ command is the new process that requires the memory, followed by the amount of memory being requested, and finally the strategy. (In this situation, “B” refers to best fit.)  
 The RQ flags are:
