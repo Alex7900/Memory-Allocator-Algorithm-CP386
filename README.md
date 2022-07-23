@@ -30,8 +30,9 @@ The RQ flags are:
 
 Similarly, a release will appear as:  
 *command>RL P0*   
-This command will release the memory that has been allocated to process P0. The command for compaction is entered as:
+This command will release the memory that has been allocated to process P0. 
 
+The command for compaction is entered as:
 *command>C*  
 This command will compact unused holes of memory into one region.
 
