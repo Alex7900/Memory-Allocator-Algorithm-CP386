@@ -40,3 +40,10 @@ This command will compact unused holes of memory into one region.
 Finally, the Status command for reporting the status of memory is entered as:  
 *command>Status*  
 Given this command, the program will report the regions of memory that are allocated and the regions that are unused. 
+
+## Sample Output
+![image](https://user-images.githubusercontent.com/96122498/180584662-28648fa3-4a77-4445-907c-aff649c64f0a.png)
+
+## Authors
+- Alexandros Ioannou, 191699620
+
